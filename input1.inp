@@ -1,0 +1,9 @@
+length 300
+rightBC escape 
+leftBC escape 
+numgroups 1
+numBins 20
+FisConvergeError 1e-5
+FluxConvergeError 1e-7
+#meshSize 5
+problem 1
