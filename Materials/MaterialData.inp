@@ -1,0 +1,76 @@
+mat 1
+name fuel1
+numGroups 2
+diffcoef 1.43 0.37
+absXS 0.0079 0.0605
+fisXS 0.0034 0.0711
+Gscat1 0.0 0.0195
+Gscat2 0.0 0.0
+
+end 0
+
+mat 2  
+name fuel2  
+numGroups 2
+diffcoef 1.43 0.37
+absXS 0.0084 0.0741
+fisXS 0.0054 0.1
+Gscat1 0.0 0.0185
+Gscat2 0.0 0.0
+
+end 0
+
+mat 3
+name fuel3
+numGroups 2
+diffcoef 1.43 0.37
+absXS 0.0089 0.0862
+fisXS 0.0054 0.1
+Gscat1 0.0 0.0178
+Gscat2 0.0 0.0
+
+end 0
+
+mat 4
+name fuel4
+numGroups 2
+diffcoef 1.43 0.37
+absXS 0.0088 0.0852
+fisXS 0.0062 0.1249
+Gscat1 0.0 0.0188
+Gscat2 0.0 0.0
+
+end 0                    
+       
+mat 5     
+name baff_reflect  
+numGroups 2
+diffcoef 1.26 0.27
+absXS 0.0025 0.02
+fisXS 0.0 0.0
+Gscat1 0.0 0.0294
+Gscat2 0.0 0.0
+
+end 0 
+
+nuclide 6
+name baffle
+numGroups 2
+diffcoef 1.0 0.34
+absXS 0.0054 0.13
+fisXS 0.0 0.0
+Gscat1 0.0 0.0009
+Gscat2 0.0 0.0
+
+end 0              
+
+mat 7     
+name reflector                   
+numGroups 2
+diffcoef 1.55 0.27
+absXS 0.001 0.0286
+fisXS 0.0 0.0
+Gscat1 0.0 0.045
+Gscat2 0.0 0.0
+
+end 0 
